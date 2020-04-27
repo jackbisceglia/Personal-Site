@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <a href="#home" onclick="">Home</a>
+        <a href="#about" onclick="">About</a>
+        <a href="#projects" onclick="">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    
+    <section id="home">
+        <h1>Jack Bisceglia</h1>
+        <p>A Computer Science and Math Student at UMass Amherst</p>
+        <div class="social-bar">
+            <a href="https://github.com/jackbisceglia" target="_blank"><div class="soc-icon git"></div></a>
+            <a href="https://linkedin.com/in/jackbisceglia" target="_blank"><div class="soc-icon li"></div></a>
+            <a href="other/Jack Bisceglia Resume.pdf" download="Jack Bisceglia Resume.pdf"><div class="soc-icon res"></div></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="intro">
+            <h1>Welcome!</h1>
+            <div class="pic-and-text">
+                <div class="picture"><img src="" alt=""></div>
+                <p >Hi, my name is Jack! I'm a Freshman at UMass Amherst majoring in Computer Science and Mathematics, and I'm currently searching for Software Engineering Internship positions. I'm very passionate about my school work and software, and in my free time I love watching basketball and making music.</p>
+            </div>
+            
+        </div>
+        
+        <div class="interests">
+            <h3 class="areas">Areas Of Interest</h3>
+            <div class="box web">
+                <img src="icons/dashboard.svg" alt="">
+                <h3 class=" interest-title">Web Development</h3>
+                <p><b>Front-End:</b> HTML, CSS, Javascript</p>
+                <p><b>Back-End:</b> Flask, Python</p>
+                <p><b>Other:</b> Materialize UI</p>
+            </div>
+            <div class="box software">
+                <img src="icons/cms.svg" alt="">
+                <h3>Software Engineering</h3>
+                <p><b>Languages:</b> Python, Java, Javascript</p>
+                <p><b>Tools:</b> Git, Numpy</p>
+                <p><b>Concepts:</b> Data Structures, Object Oriented Design</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <div class="proj-head">
+            <h1>My Projects</h1>
+            <p>Programming projects to work on my technical skills</p>
+        </div>
+        <div class="showcase">
+            <div class="proj-box">
+                <h2><a href="http://weatherwizard.tech/" target="_blank">WeatherWizard</a></h2>
+                <div class="proj-img  ww"></div>
+                <p>A web app written in <b>Python</b> and <b>Flask</b> to display weather information.</p>
+                <a class="repo" href="https://github.com/jackbisceglia/weatherwizard" target="_blank">See the code here</a>
+
+            </div>
+
+            <div class="proj-box">
+                <h2><a href="https://jackbisceglia.github.io/Sort-ify/" target="_blank">Sort-ify</a></h2>
+                <div class="proj-img sortify"></div>
+                <p>A static site written in <b>Javascript</b> that visualizes various sorting algorithms.</p>
+                <a class="repo" href="https://github.com/jackbisceglia/Sort-ify" target="_blank">See the code here</a>
+
+            </div>
+
+            <div class="proj-box">
+                <h2><a class="fractal" href="" target="_blank">Fractal Generator</a></h2>
+                <div class="proj-img fract"></div>
+                <p>A recursive <b>Java</b> program to generate fractals and outputs to a simple UI </p>
+                <a class="repo" href="https://github.com/jackbisceglia" target="_blank">Repo is private</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="wrapper">
+            <div class="con">
+                <h1>Get in Touch!</h1>
+                <p>Send an email or make a phone call!.</p>
+            </div>
+            
+            <div class="box2 phone">
+                <a href="tel:5084888566"><div class="icon"></div></a>
+                <a href="tel:5084888566">508-488-8566</a>
+            </div>
+
+            <div class="box2 email">
+                <a href="mailto: jackbisceglia2000@gmail.com"><div class="icon"></div></a>
+                <a href="mailto: jackbisceglia2000@gmail.com" class="email-address">jackbisceglia2000@gmail.com</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <h4>Jack Bisceglia</h4>
+        <p>Icons made by Vitaly Gorbachev, Pixel Perfect, and Freepik from www.flaticon.com</p>
+        <div class="social-bar">
+            <a href="https://github.com/jackbisceglia" target="_blank"><div class="soc-icon git"></div></a>
+            <a href="https://linkedin.com/in/jackbisceglia" target="_blank"><div class="soc-icon li"></div></a>
+            <a href="Jack Bisceglia Resume.pdf" download="Jack Bisceglia Resume.pdf"><div class="soc-icon res"></div></a>
+            <a href="mailto: jackbisceglia2000@gmail.com" target="_blank"><div class="soc-icon mail-icon"></div></a>
+            <a href="tel:5084888566" target="_blank"><div class="soc-icon phone-icon"></div></a>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
